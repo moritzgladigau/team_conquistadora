@@ -29,6 +29,13 @@
 
   <section class="blog">
     <h2>Neuigkeiten</h2>
+    <ul>
+	{% for post in site.posts %}
+	  <li>
+	    <a href="{{ post.url }}">{{ post.date | date: "%d.%m.%Y" }} – {{ post.title }}</a>
+	  </li>
+	{% endfor %}
+    </ul>
     <article>
       <h3><a href="blog/asso99-cup-2025.html">02.06.2025 – Asso Cup</a></h3>
       <p>Knapp verpasst – aber super Stimmung!</p>
