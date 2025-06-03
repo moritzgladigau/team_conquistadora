@@ -50,27 +50,6 @@ body {
   width: auto;
 }
 
-/* Fixierte Navigation */
-.main-nav {
-  position: sticky;
-  top: 0;
-}
-
-.main-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.main-nav a:hover {
-  text-decoration: underline;
-}
-
-.main-nav .logo-link img {
-  height: 30px;
-  vertical-align: middle;
-}
-
 /* Hero-Bereich */
 .hero {
   background-color: #e0ecf4;
