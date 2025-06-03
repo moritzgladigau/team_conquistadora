@@ -9,31 +9,45 @@ body {
 }
 
 /* Header */
-header {
+.site-header {
   background-color: #003366;
   color: white;
-  padding: 1.5rem 1rem;
+  padding: 1rem;
   text-align: center;
+  position: relative;
 }
 
-header h1 {
+.site-header h1 {
   margin: 0;
   font-size: 1.8rem;
 }
 
-nav {
+.site-header nav {
   margin-top: 0.5rem;
 }
 
-nav a {
+.site-header nav a {
   color: white;
   text-decoration: none;
   margin: 0 0.7rem;
   font-weight: 500;
+  vertical-align: middle;
 }
 
-nav a:hover {
+.site-header nav a:hover {
   text-decoration: underline;
+}
+
+/* Logo oben rechts */
+.site-header .logo-link {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.site-header .logo-link img {
+  height: 40px;
+  width: auto;
 }
 
 /* Hero-Bereich */
@@ -132,36 +146,4 @@ main.post img {
   max-width: 100%;
   border-radius: 4px;
   margin: 1rem 0;
-}
-
-/* Header mit Logo rechts */
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: #003366;
-  color: white;
-  flex-wrap: wrap;
-}
-
-.site-header h1 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.site-header nav a {
-  color: white;
-  margin-left: 1rem;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.header-left nav {
-  margin-top: 0.5rem;
-}
-
-.header-right img {
-  height: 50px;
-  max-width: 100px;
 }

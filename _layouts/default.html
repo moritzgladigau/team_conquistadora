@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="de">
 <header class="site-header">
-  <div class="header-left">
-    <h1><a href="{{ '/' | relative_url }}">Segelteam Asso 99</a></h1>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/blog/' | relative_url }}">Blog</a>
-      <a href="{{ '/impressum.html' | relative_url }}">Impressum</a>
-    </nav>
-  </div>
-  <div class="header-right">
-    <a href="https://www.asso99.de" target="_blank">
-      <img src="{{ '/assets/Asso99Logo.png' | relative_url }}" alt="Asso 99 Klassenlogo" />
+  <h1>
+    <a href="{{ '/' | relative_url }}">Segelteam Asso 99</a>
+  </h1>
+
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a href="{{ '/impressum.html' | relative_url }}">Impressum</a>
+    <a href="https://www.instagram.com/team_conquistadora/" target="_blank">📸 Instagram</a>
+    <a href="https://www.asso99.de" target="_blank" class="logo-link">
+      <img src="{{ '/assets/Asso99Logo.png' | relative_url }}" alt="Asso 99" />
     </a>
-  </div>
+  </nav>
 </header>
 <body>
     {{ content }}
