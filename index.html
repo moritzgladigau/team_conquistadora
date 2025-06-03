@@ -1,53 +1,39 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Segelteam Asso 99</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Segelteam Asso 99</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="blog/regatta-prien.html">Blog</a>
-      <a href="#">Termine</a>
-      <a href="impressum.html">Impressum</a>
-      <a href="https://www.instagram.com/team_conquistadora/" target="_blank">📸 Instagram</a>
-    </nav>
-  </header>
+---
+layout: default
+title: Segelteam Asso 99
+---
 
-  <section class="hero">
-    <p>Wir segeln Asso 99 auf dem Chiemsee – jung, schnell, motiviert!</p>
-  </section>
+<header>
+  <h1>Segelteam Asso 99</h1>
+  <nav>
+    <a href="{{ "/" | relative_url }}">Home</a>
+    <a href="{{ "/blog/" | relative_url }}">Blog</a>
+    <a href="#">Termine</a>
+    <a href="{{ "/impressum.html" | relative_url }}">Impressum</a>
+    <a href="https://www.instagram.com/team_conquistadora/" target="_blank">📸 Instagram</a>
+  </nav>
+</header>
 
-  <section class="bilder">
-    <img src="assets/images/IMG-20210912-WA0022.jpg" alt="Unser Boot" />
-    <img src="assets/images/IMG-20210813-WA0038.jpg" alt="Das Team" />
-  </section>
+<section class="hero">
+  <p>Wir segeln Asso 99 auf dem Chiemsee – jung, schnell, motiviert!</p>
+</section>
 
-  <section class="blog">
-    <h2>Neuigkeiten</h2>
-    <ul>
-	{% for post in site.posts %}
-	  <li>
-	    <a href="{{ post.url }}">{{ post.date | date: "%d.%m.%Y" }} – {{ post.title }}</a>
-	  </li>
-	{% endfor %}
-    </ul>
-    <article>
-      <h3><a href="blog/asso99-cup-2025.html">02.06.2025 – Asso Cup</a></h3>
-      <p>Knapp verpasst – aber super Stimmung!</p>
-    </article>
-    <article>
-      <h3><a href="blog/neues-layout.html">15.05.2025 – Neues Layout</a></h3>
-      <p>Unsere Bootsbemalung ist fertig. Fotos folgen!</p>
-    </article>
-  </section>
+<section class="bilder">
+  <img src="{{ '/assets/images/IMG-20210912-WA0022.jpg' | relative_url }}" alt="Unser Boot" />
+  <img src="{{ '/assets/images/IMG-20210813-WA0038.jpg' | relative_url }}" alt="Das Team" />
+</section>
 
-  <footer>
-    <p>© 2025 Segelteam Asso 99 – <a href="impressum.html">Impressum</a></p>
-  </footer>
-</body>
-</html>
+<section class="blog">
+  <h2>Neuigkeiten</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.date | date: "%d.%m.%Y" }} – {{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<footer>
+  <p>© {{ site.time | date: "%Y" }} Segelteam Asso 99 – <a href="{{ "/impressum.html" | relative_url }}">Impressum</a></p>
+</footer>
