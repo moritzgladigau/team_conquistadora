@@ -5,29 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title }} – Segelteam Asso 99</title>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
-    <link rel="icon" href="{{ '/favicon.png' | relative_url }}" type="image/png" />
+  <link rel="icon" href="{{ '/favicon.png' | relative_url }}" type="image/png" />
 </head>
 
-<header class="site-header">
-  <h1>
-    <a>Segelteam Asso 99 3</a>
-  </h1>
-
-  <nav class="main-nav">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/blog/' | relative_url }}">Blog</a>
-    <a href="{{ '/impressum.html' | relative_url }}">Impressum</a>
-    <a href="https://www.instagram.com/team_conquistadora/" target="_blank">📸 Instagram</a>
-    <a href="https://www.asso99.de" target="_blank" class="logo-link">
-      <img src="{{ '/assets/Asso99Logo.png' | relative_url }}" alt="Asso 99" />
-    </a>
-  </nav>
-</header>
 <body>
-    {{ content }}
-</body>
+  <header class="site-header">
+    <h1><a href="{{ '/' | relative_url }}">Segelteam Asso 99</a></h1>
 
-<footer>
-  <p>© {{ site.time | date: "%Y" }} Segelteam Asso 99 – <a href="{{ "/impressum.html" | relative_url }}">Impressum</a></p>
-</footer>
+    <nav class="main-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/impressum.html' | relative_url }}">Impressum</a>
+      <a href="https://www.instagram.com/team_conquistadora/" target="_blank">📸 Instagram</a>
+      <a href="https://www.asso99.de" target="_blank" class="logo-link">
+        <img src="{{ '/assets/Asso99Logo.png' | relative_url }}" alt="Asso 99" />
+      </a>
+    </nav>
+  </header>
+
+  {{ content }}
+
+  <footer>
+    <p>© {{ site.time | date: "%Y" }} Segelteam Asso 99 – <a href="{{ '/impressum.html' | relative_url }}">Impressum</a></p>
+  </footer>
+</body>
 </html>
