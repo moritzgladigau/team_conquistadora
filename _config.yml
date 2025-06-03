@@ -1,0 +1,9 @@
+title: Segelteam Asso 99
+description: Blog und Teamseite
+baseurl: "" # falls du z. B. auf username.github.io/asso99-blog/ hostest: baseurl: "/asso99-blog"
+url: "https://deinname.github.io"
+
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
