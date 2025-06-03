@@ -24,6 +24,10 @@ body {
 
 .site-header nav {
   margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .site-header nav a {
@@ -50,6 +54,35 @@ body {
   width: auto;
 }
 
+/* Fixierte Navigation */
+.main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #003366;
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav .logo-link img {
+  height: 30px;
+  vertical-align: middle;
+}
+
 /* Hero-Bereich */
 .hero {
   background-color: #e0ecf4;
@@ -71,7 +104,8 @@ body {
   width: 100%;
   max-width: 400px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
 }
 
 /* Blogbereich */
@@ -127,7 +161,7 @@ main.post {
   padding: 1rem;
   background: white;
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 main.post h2 {
@@ -146,4 +180,56 @@ main.post img {
   max-width: 100%;
   border-radius: 4px;
   margin: 1rem 0;
+  height: auto;
+}
+
+/* Textblöcke */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Responsive-Optimierungen */
+@media (max-width: 768px) {
+  /* Header-Schriftgröße anpassen */
+  .site-header h1 {
+    font-size: 1.4rem;
+  }
+
+  /* Logo im Header ausblenden, wenn wenig Platz */
+  .site-header .logo-link {
+    display: none;
+  }
+
+  /* Hauptnavigation vertikal anordnen */
+  .main-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .main-nav a {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+
+  /* Bilder in Spalte darstellen */
+  .bilder {
+    flex-direction: column;
+  }
+
+  .bilder img {
+    max-width: 90%;
+  }
+
+  /* Blogbereich anpassen */
+  .blog {
+    padding: 1rem;
+  }
+
+  /* Blogpost-Padding reduzieren */
+  main.post {
+    padding: 1rem;
+  }
 }
