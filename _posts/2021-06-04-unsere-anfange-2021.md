@@ -1,11 +1,11 @@
 ---
 title: "Unsere Anfänge – Jugendteam auf der Asso99 (2021)"
-date: 2021-06-04
+date: 2025-06-04
 layout: post
 author: "Moritz Gladigau"
 ---
 
-Im Jahr 2021 bekamen wir zum ersten Mal die Gelegenheit, mit einer **Asso 99** als Jugendboot zu starten. Schnell fand sich eine **motivierte Stammcrew** zusammen:
+Im Jahr 2021 bekamen wir erstmals die Gelegenheit, mit einer **Asso 99** als Jugendboot durchzustarten. Schnell fand sich eine **motivierte Stammcrew** zusammen:
 
 - Leopold Thomas
 - Leopold Kluth
@@ -16,22 +16,27 @@ Im Jahr 2021 bekamen wir zum ersten Mal die Gelegenheit, mit einer **Asso 99** a
 - Moritz Gladigau
 - Ronja Sax
 
-Zunächst lag unser Boot am Steg des [Yacht-Club Urfahrn e. V. (YCU)](https://www.ycu.de/) am Chiemsee, wo wir großartige Unterstützung erhielten. Besonders **Andreas Mulzer**, Vorsitzender des Windclubs (Klassenvereinigung der Asso 99), half uns enorm, Fuß zu fassen.
+Außerdem unterstützten uns in der Anfangszeit Felix Blumrich, Isabella Blumrich und Vincent Blumrich tatkräftig, wofür wir sehr dankbar sind.
+
+Unser Boot lag anfangs am Steg des [Yacht-Club Urfahrn e. V. (YCU)](https://www.ycu.de/) am Chiemsee. Dort erhielten wir großartige Unterstützung, insbesondere von **Andreas Mulzer**, dem Vorsitzenden des Windclubs (Klassenvereinigung der Asso 99).
 
 <img src="{{ '/assets/images/asso99-erste-saison-2021.jpg' | relative_url }}" alt="Erste Saison 2021" style="max-width:100%; border-radius:6px;" />
 
 ### Unsere ersten Schritte auf dem Wasser
 
-Von Beginn an waren wir **regelmäßig am Segeln**. Nach kurzer Eingewöhnung verbesserten wir unsere Technik rasch und gewannen Vertrauen in Boot und Mannschaft.
+Von Beginn an waren wir **regelmäßig am Segeln**. Schon nach kurzer Eingewöhnung verbesserten wir unsere Technik rasch und gewannen Vertrauen in das Boot und unsere Mannschaft.
 
-Bereits in der ersten Saison standen wir bei unseren **ersten Regatten** am Start. Zwar lief noch nicht alles perfekt, doch die Erfahrungen waren wertvoll und machten Lust auf mehr.
+Bereits in der ersten Saison standen wir bei den ersten Regatten am Start. Natürlich lief damals noch nicht alles perfekt – aber genau diese frühen Erfahrungen motivierten uns, gemeinsam weiterzumachen und zu wachsen.
 
 <img src="{{ '/assets/images/asso99-crew-2021.jpg' | relative_url }}" alt="Unsere Crew 2021" style="max-width:100%; border-radius:6px;" />
 
+### Heute – immer noch aktiv!
+
+Besonders schön ist es, dass Leopold Thomas, Leopold Kluth, Tara Thomas, Felicitas Krumrey und Moritz Gladigau auch heute noch zu unseren aktiven Seglerinnen und Seglern gehören und damit die Kontinuität und Entwicklung unseres Teams zeigen.
+
 ### Dank & Ausblick
 
-Ein großer Dank gilt dem YCU und Andreas Mulzer vom Windclub, die uns den Einstieg so gut ermöglicht haben. Seit 2021 haben wir uns kontinuierlich weiterentwickelt – wir freuen uns, gemeinsam viele weitere Regatten und tolle Momente auf der Asso 99 erleben zu können!
+Ein großer Dank gilt weiterhin dem YCU sowie Andreas Mulzer vom Windclub, die uns den Einstieg so gut ermöglicht haben. Seit 2021 haben wir uns kontinuierlich weiterentwickelt – und wir freuen uns auf viele weitere Regatten und großartige Momente auf der Asso 99!
 
 ---
 
-<p><a href="{{ '/' | relative_url }}">← Zurück zur Startseite</a></p>
