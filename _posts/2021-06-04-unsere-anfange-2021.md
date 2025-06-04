@@ -1,6 +1,6 @@
 ---
 title: "Unsere Anfänge – Jugendteam auf der Asso99 (2021)"
-date: 2025-06-04
+date: 2021-06-04
 layout: post
 author: "Moritz Gladigau"
 ---
