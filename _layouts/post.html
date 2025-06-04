@@ -3,8 +3,9 @@ layout: default
 ---
 
 <main class="post">
-  <p class="post-date">{{ page.date | date: "%d.%m.%Y" }}</p>
-  <h2>{{ page.title }}</h2>
-  {{ content }}
-  <p><a href="{{ '/' | relative_url }}">← Zurück zur Startseite</a></p>
+    <p class="post-date">{{ page.date | date: "%d.%m.%Y" }}</p>
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+    <p><a href="{{ '/' | relative_url }}">← Zurück zur Startseite</a></p>
+    <p class="post-author">von {{ page.author }}</p>
 </main>
