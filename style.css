@@ -50,7 +50,7 @@ body {
 }
 
 .site-header .logo-link img {
-  height: 40px;
+  height: 60px;
   width: auto;
   border-radius: 50%;
 }
@@ -115,6 +115,8 @@ body {
   background: white;
   max-width: 800px;
   margin: 0 auto;
+  border-radius: 8px;
+  box-Shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .blog h2 {
@@ -163,7 +165,7 @@ main.post {
   padding: 1rem;
   background: white;
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-Shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 main.post h2 {
