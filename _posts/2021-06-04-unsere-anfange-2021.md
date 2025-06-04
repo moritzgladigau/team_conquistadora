@@ -18,7 +18,7 @@ Im Jahr 2021 bekamen wir erstmals die Gelegenheit, mit einer **Asso 99** als Jug
 
 Außerdem unterstützten uns in der Anfangszeit Felix Blumrich, Isabella Blumrich und Vincent Blumrich tatkräftig, wofür wir sehr dankbar sind.
 
-Unser Boot lag anfangs am Steg des [Yacht-Club Urfahrn e. V. (YCU)](https://www.ycu.de/) am Chiemsee. Dort erhielten wir großartige Unterstützung, insbesondere von **Andreas Mulzer**, dem Vorsitzenden des Windclubs (Klassenvereinigung der Asso 99).
+Unser Boot lag anfangs am Steg des [Yacht-Club Urfahrn e. V. (YCU)](https://www.ycu.de/) am Chiemsee. Dort erhielten wir großartige Unterstützung, insbesondere von **Andreas Mulzer**, dem Vorsitzenden des [Windclubs](https://www.asso99.de) (Klassenvereinigung der Asso 99).
 
 <img src="{{ '/assets/images/asso99-erste-saison-2021.jpg' | relative_url }}" alt="Erste Saison 2021" style="max-width:100%; border-radius:6px;" />
 
