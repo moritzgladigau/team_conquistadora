@@ -3,8 +3,8 @@ layout: default
 ---
 
 <main class="post">
-  <h2>{{ page.title }}</h2>
   <p class="post-date">{{ page.date | date: "%d.%m.%Y" }}</p>
+  <h2>{{ page.title }}</h2>
   {{ content }}
   <p><a href="{{ '/' | relative_url }}">← Zurück zur Startseite</a></p>
 </main>
