@@ -78,7 +78,7 @@ title: Segelteam Asso 99
   <ul>
     {% for post in site.posts %}
       <li>
-        <a href="{{ team_conquistadora/post.url | relative_url }}">{{ post.date | date: "%d.%m.%Y" }} – {{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.date | date: "%d.%m.%Y" }} – {{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
