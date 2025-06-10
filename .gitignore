@@ -1,2 +1,24 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
 .DS_Store
-.swp
+*.swp
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+# Swap-Dateien
+*.swp
+
+# Build- und Abhängigkeitsdateien
+Gemfile.lock
+
+# Layout-Dateien
+_layouts/.default.html.swp
+
+# Assets-Ordner
+assets/.DS_Store
+assets/images/.DS_Store
+
+vendor
