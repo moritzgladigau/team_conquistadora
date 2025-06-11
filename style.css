@@ -84,7 +84,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* Hero Large mit Blur-Box */
 .hero-large {
   position: relative;
-  background: url('/team_conquistadora/assets/images/hero-boat.jpg');
+  background: url('/assets/images/hero-boat.jpg');
   height: 60vh;
   display: flex;
   flex-direction: column;
