@@ -135,7 +135,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* Blog-Übersicht */
 .blog {
-  background: var(--color-accent);
+  background: var(--color-post);
   padding: 2rem 1rem;
   max-width: 800px;
   margin: 2rem auto;
