@@ -87,7 +87,7 @@ img { display: block; max-width: 100%; height: auto; }
   position: relative;
   background: url('/team_conquistadora/assets/images/hero-boat.jpg') center/cover no-repeat;
   /*background: url('{{ "/assets/images/hero-boat.jpg" | relative_url }}');*/
-  height: 60vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
