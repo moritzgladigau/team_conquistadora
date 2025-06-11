@@ -17,11 +17,11 @@ title: Segelteam Asso 99
   <h2> </h2>
   <div class="wrapper">
     <div class="items">
-      <div class="item" tabindex="0" style="background-image: url('{{ 'team_conquistadora/assets/images/asso99-erste-saison-2021.jpg' | relative_url }}')"></div>
-      <div class="item" tabindex="0" style="background-image: url('{{ 'team_conquistadora/assets/images/asso99-crew-2021.jpg' | relative_url }}')"></div>
-      <div class="item" tabindex="0" style="background-image: url('{{ 'team_conquistadora/assets/images/0B98E31E-59A5-4614-B557-2934D3CF49F1.jpg' | relative_url }}')"></div>
-      <div class="item" tabindex="0" style="background-image: url('{{ 'team_conquistadora/assets/images/376EA14F-E7C6-45C6-AEB0-7BBAEF39FD21.jpg' | relative_url }}')"></div>
-      <div class="item" tabindex="0" style="background-image: url('{{ 'team_conquistadora/assets/images/07d0323b-9d4f-4382-96ba-8e66a735ab6e.jpg' | relative_url }}')"></div>
+      <div class="item" tabindex="0" style="background-image: url('{{ '/assets/images/asso99-erste-saison-2021.jpg' | relative_url }}')"></div>
+      <div class="item" tabindex="0" style="background-image: url('{{ '/assets/images/asso99-crew-2021.jpg' | relative_url }}')"></div>
+      <div class="item" tabindex="0" style="background-image: url('{{ '/assets/images/0B98E31E-59A5-4614-B557-2934D3CF49F1.jpg' | relative_url }}')"></div>
+      <div class="item" tabindex="0" style="background-image: url('{{ '/assets/images/376EA14F-E7C6-45C6-AEB0-7BBAEF39FD21.jpg' | relative_url }}')"></div>
+      <div class="item" tabindex="0" style="background-image: url('{{ '/assets/images/07d0323b-9d4f-4382-96ba-8e66a735ab6e.jpg' | relative_url }}')"></div>
     </div>
   </div>
 </section>
