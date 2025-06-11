@@ -7,6 +7,7 @@
   --color-accent: #E0E1DD;      /* helles Grau */
   --color-highlight: #F4D35E;   /* warmes Gelb */
   --color-text: #0D1B2A;        /* dunkles Schwarz-Blau */
+  --color-post: #f4f5f1;
 
   /* Typografie */
   --font-sans: 'Poppins', sans-serif;
@@ -163,7 +164,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* Blogpost-Styling */
 main.post {
-  background: var(--color-accent);
+  background: var(--color-post);
   padding: 2rem 1.5rem;
   max-width: 720px;
   margin: 2rem auto;
