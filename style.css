@@ -176,6 +176,16 @@ main.post h2 {
   font-weight: 600;
   font-size: 2rem;
 }
+main.post p {
+  margin-bottom: 1.5rem;
+}
+main.post img {
+  margin: 2rem 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px; /* optional */
+}
 .post-date {
   color: var(--color-secondary);
   font-size: 0.9rem;

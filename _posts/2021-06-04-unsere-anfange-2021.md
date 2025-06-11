@@ -20,9 +20,7 @@ Außerdem unterstützten uns in der Anfangszeit Felix Blumrich, Isabella Blumric
 
 Unser Boot lag anfangs am Steg des [Yacht-Club Urfahrn e. V. (YCU)](https://www.ycu.de/) am Chiemsee. Dort erhielten wir großartige Unterstützung, insbesondere von **Andreas Mulzer**, dem Vorsitzenden des [Windclubs](https://www.asso99.de) (Klassenvereinigung der Asso 99).
 
-
 <img src="{{ '/assets/images/asso99-erste-saison-2021.jpg' | relative_url }}" alt="Erste Saison 2021" style="max-width:100%; border-radius:6px;" />
-
 
 ### Unsere ersten Schritte auf dem Wasser
 
@@ -30,9 +28,7 @@ Von Beginn an waren wir **regelmäßig am Segeln**. Schon nach kurzer Eingewöhn
 
 Bereits in der ersten Saison standen wir bei den ersten Regatten am Start. Natürlich lief damals noch nicht alles perfekt – aber genau diese frühen Erfahrungen motivierten uns, gemeinsam weiterzumachen und zu wachsen.
 
-
 <img src="{{ '/assets/images/asso99-crew-2021.jpg' | relative_url }}" alt="Unsere Crew 2021" style="max-width:100%; border-radius:6px;" />
-
 
 ### Heute – immer noch aktiv!
 
